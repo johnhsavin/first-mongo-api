@@ -17,6 +17,6 @@ app.post("/plants", addPlant)
 
 
 app.listen(PORT, () => {
-console.log(`listening on http://localhost:${PORT}...`)
+console.log(`listening on http://localhost:${PORT}...`) // template literal creates string
 })
 // console.log("Listening on http://localhost:" + PORT + "...") same as above
